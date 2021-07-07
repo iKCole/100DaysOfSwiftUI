@@ -21,6 +21,9 @@ struct ContentView: View {
                 
                 Image(systemName: "arrow.down.left")
                     .position(y: gProxy.frame(in: .local).maxY)
+                
+                Image(systemName: "arrow.down.right")
+                    .position(x: gProxy.frame(in: .local).maxX, y: gProxy.frame(in: .local).maxY)
             }
             .font(.largeTitle)
             .padding()
